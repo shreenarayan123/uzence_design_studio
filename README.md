@@ -201,24 +201,7 @@ The project includes testing setup with:
 5. Push to the branch: `git push origin feature/new-feature`
 6. Submit a pull request
 
-## 📄 License
 
-This project is open source and available under the [MIT License](LICENSE).
-
-## 🚀 Deployment
-
-The project can be deployed to various platforms:
-
-- **Vercel**: `vercel --prod`
-- **Netlify**: `npm run build` and deploy `dist` folder
-- **GitHub Pages**: Use GitHub Actions for automated deployment
-
-## 📞 Support
-
-For questions or support, please:
-- Open an issue on GitHub
-- Check the Storybook documentation
-- Review the component source code and comments
 
 ---
 
