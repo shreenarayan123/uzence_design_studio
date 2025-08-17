@@ -98,30 +98,24 @@ uzence_design/
 I approached this project with a systematic methodology to create high-quality, reusable components:
 
 1. **Initial Setup & Research:**
-   - Started by creating a new Vite React application with TypeScript for modern development experience
-   - Researched best practices for component library development and accessible UI patterns
+   - Created a new Vite React application with TypeScript for modern development experience
    - Set up Tailwind CSS for efficient styling and design consistency
 
 2. **Component Development:**
-   - **InputField Component**: Built with multiple variants (filled, outlined, ghost), sizes (sm, md, lg), and states (disabled, invalid, loading)
-   - **DataTable Component**: Developed as a generic, type-safe component supporting sorting, selection, and various data types
-   - Focused on accessibility with proper ARIA attributes, keyboard navigation, and screen reader support
+   - Built InputField with multiple variants, sizes, and states focusing on accessibility
+   - Developed DataTable as a generic, type-safe component supporting sorting and selection
 
 3. **Storybook Integration:**
-   - Researched Storybook documentation and watched YouTube tutorials to understand best practices
-   - Learned about story-driven development and component isolation
-   - Created comprehensive stories for both components showcasing all variants, states, and use cases
-   - Configured Storybook with Vite integration and Tailwind CSS support
+   - Researched Storybook documentation and YouTube tutorials to understand best practices
+   - Created comprehensive stories for both components showcasing all variants and use cases
 
 4. **Design System Integration:**
    - Replaced placeholder emojis with professional Lucide React icons
    - Converted from CSS modules to Tailwind CSS for better maintainability
-   - Implemented consistent spacing, typography, and color schemes
 
 5. **Testing & Documentation:**
    - Set up comprehensive Storybook stories as living documentation
-   - Ensured type safety throughout the codebase
-   - Created responsive designs that work across different screen sizes
+   - Ensured type safety and responsive designs across different screen sizes
 
 ### Technical Decisions
 
